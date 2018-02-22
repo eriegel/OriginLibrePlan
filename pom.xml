@@ -13,8 +13,6 @@
     -->
     <!-- Modules -->
     <modules>
-        <module>libreplan-business</module>
-        <module>ganttzk</module>
         <module>libreplan-webapp</module>
     </modules>
 

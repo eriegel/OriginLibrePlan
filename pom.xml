@@ -14,6 +14,8 @@
     <!-- Modules -->
     <modules>
         <module>libreplan-webapp</module>
+        <module>libreplan-business</module>
+        <module>ganttzk</module>
     </modules>
 
     <!--
@@ -115,7 +117,7 @@
                 <!-- JDBC driver properties -->
                 <jdbcDriver.groupId>org.postgresql</jdbcDriver.groupId>
                 <jdbcDriver.artifactId>postgresql</jdbcDriver.artifactId>
-                <jdbcDriver.version>42.2.1</jdbcDriver.version>
+                <jdbcDriver.version>42.1.2.jre7</jdbcDriver.version>
                 <jdbcDriver.className>org.postgresql.Driver</jdbcDriver.className>
                 <!-- Data source properties -->
                 <dataSource.url>jdbc:postgresql://localhost/libreplan${libreplan.mode}</dataSource.url>
@@ -962,6 +964,7 @@
                 <version>2.10</version>
                 <configuration>
                    <runOrder>alphabetical</runOrder>
+                   <argLine>-javaagent:C:/Users/Formation/Desktop/Documents/jacocoagent.jar=destfile=C:/Users/Formation/Desktop/Documents/jacoco-it.exec</argLine>
                 </configuration>
             </plugin>
 

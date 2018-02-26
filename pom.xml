@@ -964,7 +964,7 @@
                 <version>2.10</version>
                 <configuration>
                    <runOrder>alphabetical</runOrder>
-                   <argLine>-javaagent:C:/Users/Formation/Desktop/Documents/jacocoagent.jar=destfile=C:/FORMATION/esclave1/workspace/Libreplan/LibrePlanSonar/libreplan-webapp/src/jacoco-it.exec, append=false</argLine>
+                   <argLine>-javaagent:C:/Users/Formation/Desktop/Documents/jacocoagent.jar=destfile=C:/FORMATION/esclave1/workspace/Libreplan/LibrePlanSonar/libreplan-webapp/src/jacoco-it.exec,append=false</argLine>
                 </configuration>
             </plugin>
 
